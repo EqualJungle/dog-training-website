@@ -15,7 +15,42 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px;
+  position: relative;
+}
+
+.logo {
+  font-weight: 500;
+}
+
+.menu-toggle {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* MOBILE MENU */
+.nav-links {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: white;
+  border-radius: 8px;
+  display: none;
+  flex-direction: column;
+  padding: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--onyx);
+  padding: 10px 0;
+}
+
+/* SHOW MENU */
+.nav-links.active {
+  display: flex;
 }
 
 /* HERO */
