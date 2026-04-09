@@ -1,115 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Training</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 
-<style>
-:root {
-  --onyx: #0A171D;
-  --wheat: #FFF6E9;
-  --nectarine: #FFBD76;
-}
-
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background: var(--wheat);
-  color: var(--onyx);
-}
-
-/* NAV */
-.nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-/* HERO */
-.hero {
-  background: var(--onyx);
-  color: var(--wheat);
-  padding: 80px 20px;
-}
-
-.hero h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 32px;
-}
-
-.hero p {
-  margin: 20px 0;
-}
-
-.buttons {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.btn {
-  padding: 14px;
-  border-radius: 8px;
-  text-decoration: none;
-  text-align: center;
-  flex: 1;
-}
-
-.primary {
-  background: var(--nectarine);
-  color: var(--onyx);
-}
-
-.secondary {
-  border: 1px solid var(--wheat);
-  color: var(--wheat);
-}
-
-/* SECTIONS */
-.section {
-  padding: 40px 20px;
-}
-
-/* CARDS */
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
-
-/* DARK */
-.dark {
-  background: var(--onyx);
-  color: var(--wheat);
-  text-align: center;
-}
-
-/* CTA */
-.cta {
-  background: var(--onyx);
-  color: var(--wheat);
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.cta a {
-  background: var(--nectarine);
-  color: var(--onyx);
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-}
-</style>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
 <div class="nav">
-  <div>LOGO</div>
-  <div>Menu</div>
+  <div class="logo">LOGO</div>
+  <div class="menu">Menu</div>
 </div>
 
 <div class="hero">
@@ -126,7 +33,7 @@ body {
   <p>If your dog is pulling, reacting, or not listening — you're not alone.</p>
 </div>
 
-<div class="section">
+<div class="section services">
   <div class="card">One-on-One Training</div>
   <div class="card">Puppy Training</div>
   <div class="card">Behaviour Support</div>
@@ -138,8 +45,11 @@ body {
 
 <div class="cta">
   <h2>Ready to make things easier?</h2>
-  <a href="#">Book Now</a>
+  <a href="#" class="btn primary">Book Now</a>
 </div>
+
+<!-- JS -->
+<script src="js/script.js"></script>
 
 </body>
 </html>
