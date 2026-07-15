@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>PAGE TITLE | Good Natured Training</title>
+    <title>Professional Dog Training Melbourne | Good Natured Training</title>
 
-    <meta name="description" content="PAGE DESCRIPTION">
+    <meta name="description"
+        content="Reward-based dog training in Melbourne helping dogs and their owners build confidence, better behaviour, and stronger relationships through personalised training.">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -39,10 +40,11 @@
 
         <div class="container">
 
-            <h1>PAGE HEADING</h1>
+            <h1>Professional Dog Training in Melbourne</h1>
 
             <p>
-                Page introduction goes here.
+                Helping dogs and their owners build calm, confident, and enjoyable lives together through positive,
+                reward-based training tailored to your dog's individual needs.
             </p>
 
             <a href="contact.html" class="btn">
@@ -60,10 +62,13 @@
 
             <div class="container">
 
-                <h2>Section Heading</h2>
+                <h2>Training That Builds Confidence</h2>
 
                 <p>
-                    Content goes here.
+                    Every dog learns differently. Whether you're welcoming a new puppy, improving everyday manners,
+                    or working through behavioural challenges, training should be practical, rewarding, and designed
+                    around your goals. Good Natured Training focuses on creating lasting results by strengthening the
+                    relationship between you and your dog, making training enjoyable for both of you.
                 </p>
 
             </div>
@@ -80,7 +85,7 @@
             <h2>Ready to Get Started?</h2>
 
             <p>
-                Book a consultation and let's build a clear plan for your dog.
+                Book a consultation and let's build a personalised training plan for you and your dog.
             </p>
 
             <a href="contact.html" class="btn">
