@@ -59,6 +59,11 @@ body {
   display: flex;
 }
 
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
 /* HERO */
 .hero {
   background: var(--onyx);
