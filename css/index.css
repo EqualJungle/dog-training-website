@@ -66,9 +66,15 @@ body {
 
 /* HERO */
 .hero {
-  background: var(--onyx);
-  color: var(--wheat);
-  padding: 80px 20px;
+    background: var(--onyx);
+    color: var(--wheat);
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 80px 20px;
 }
 
 .hero h1 {
